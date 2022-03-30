@@ -17,6 +17,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun logMessage(message: String) {
+        print("=================")
         print("Log: $message")
+        print("=================")
     }
 }
