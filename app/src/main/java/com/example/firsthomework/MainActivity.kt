@@ -12,5 +12,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        logMessage("call onCreate function")
+    }
+
+    private fun logMessage(message: String) {
+        print("Log: $message")
     }
 }
